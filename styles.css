@@ -1,0 +1,114 @@
+/* CSS for Unit Converter */
+
+@font-face {
+    font-family: Inter;
+    src: url("Inter.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #1F2937;
+    /* background-image: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+h3{
+    font-family: Inter, sans-serif;
+}
+
+.hero {
+    background: #7a5dc9;
+    color: white;
+    padding: 30px;
+    width: 550px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+}
+
+.main {
+    /* background: #f4f4f4; */
+    padding: 10px;
+}
+
+.section {
+    background: #2e3846;
+    color: #CCC1FF;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 600px;
+    width: 579px;
+    margin: auto;
+    border-radius: 6px;;
+   
+}
+
+.paragraph-style{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: Inter, sans-serif;
+}
+
+.input-style{
+    width: 117px;
+    height: 83px;
+    top: 101px;
+    left: 217px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid #B295FF;
+    font-size: 60px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+
+.style-btn{
+    width: 117px;
+    height: 42px;
+    top: 209px;
+    left: 217px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+
+.footer-style{
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+    padding-left: 95px;
+    color:  #B295FF;
+}
+
+.site-link:visited {
+    color: rgb(110, 147, 169);
+}
+  
+  /* mouse over link */
+.site-link:hover {
+    color: rgb(223, 96, 96);
+}
+  
+  /* selected link */
+.site-link:active {
+    color: rgb(82, 64, 203);
+} 
+.style-btn:hover{
+    background-color: #d7cccc
+}
+.style-btn:active {
+    background-color: #d7cccc;
+    box-shadow: 0 5px rgb(87, 87, 87);
+    transform: translateY(4px);
+  }
